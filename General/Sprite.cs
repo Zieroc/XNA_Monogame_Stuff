@@ -40,7 +40,7 @@ namespace PoorlyDrawnEngine.Graphics
         }
 
         public Sprite(Texture2D texture, int height, int width, int state, bool animate, bool looping)
-            : this(texture, height, width, state, true, true, 250f)
+            : this(texture, height, width, state, animate, looping, 250f)
         {
         }
 
